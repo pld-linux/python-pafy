@@ -11,7 +11,7 @@
 Summary:	Retrieve YouTube content and metadata
 Name:		python-%{pypi_name}
 Version:	0.5.2
-Release:	1
+Release:	2
 License:	LGPLv3
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/p/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
