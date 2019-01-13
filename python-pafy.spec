@@ -28,7 +28,7 @@ BuildRequires:	python3-modules
 BuildRequires:	python3-setuptools
 %endif
 Requires:	python-modules
-Suggests:	youtube-dl
+Requires:	python-youtube-dl
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -59,6 +59,7 @@ Summary:	-
 Summary(pl.UTF-8):	-
 Group:		Libraries/Python
 Requires:	python3-modules
+Requires:	python3-youtube-dl
 
 %description -n python3-%{module}
 
