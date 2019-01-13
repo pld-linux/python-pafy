@@ -10,12 +10,12 @@
 %define		pypi_name	pafy
 Summary:	Retrieve YouTube content and metadata
 Name:		python-%{pypi_name}
-Version:	0.5.2
-Release:	2
+Version:	0.5.4
+Release:	1
 License:	LGPLv3
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/p/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
-# Source0-md5:	76367e9b93889df040a2265e101e0503
+# Source0-md5:	092930504c7e4fcea30b7446fa1878c7
 URL:		http://np1.github.io/pafy/
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.714
