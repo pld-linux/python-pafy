@@ -11,7 +11,7 @@
 Summary:	Retrieve YouTube content and metadata
 Name:		python-%{pypi_name}
 Version:	0.5.4
-Release:	1
+Release:	2
 License:	LGPLv3
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/p/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
@@ -22,10 +22,12 @@ BuildRequires:	rpmbuild(macros) >= 1.714
 %if %{with python2}
 BuildRequires:	python-modules
 BuildRequires:	python-setuptools
+BuildRequires:	python-youtube-dl
 %endif
 %if %{with python3}
 BuildRequires:	python3-modules
 BuildRequires:	python3-setuptools
+BuildRequires:	python3-youtube-dl
 %endif
 Requires:	python-modules
 Requires:	python-youtube-dl
